@@ -1,5 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
-    
+
     The a .git/ folder is created for storing metadata. I need to do it so that I can start using version control on that repository.
 
 How is the staging area different from the working directory and the repository?
@@ -11,13 +11,15 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 
     I can make sure whatever goes into the staging area before each commit is grouped together logically.
-    
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-    
+
     Branches allow me to develop an experimental feature or create a different version of the project without affecting the operational version of the project. I can either discard the changes I made in the alternative version or merge them into the main version.
 
 How do the diagrams help you visualize the branch structure?
+
+    Diagrams help me to visualize the commits in each branch, starting and end commit of each branch and the reachablity of a particular commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
